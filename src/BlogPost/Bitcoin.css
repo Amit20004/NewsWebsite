@@ -1,0 +1,109 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+
+/* Container for the entire section */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+/* Section title */
+h1.text-center {
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Individual news cards */
+.col-md-4 {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    flex: 1 1 calc(33.333% - 30px); /* For 3 columns layout */
+}
+
+/* Hover effect for news cards */
+.col-md-4:hover {
+    transform: translateY(-10px);
+}
+
+/* News title */
+.col-md-4 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+/* News image */
+.col-md-4 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* News description */
+.col-md-4 p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Read More link */
+.col-md-4 a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for Read More link */
+.col-md-4 a:hover {
+    background-color: #0056b3;
+}
+#searchBtn{
+    background-color: lightblue;
+}
+#searchBtn:hover{
+    background-color: rgb(245, 172, 172);
+}
+
+/* Responsive design for tablets */
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex: 1 1 calc(50% - 30px); /* For 2 columns layout */
+    }
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 576px) {
+    .col-md-4 {
+        flex: 1 1 100%; /* For 1 column layout */
+    }
+
+    h1.text-center {
+        font-size: 2rem;
+    }
+}
+
+

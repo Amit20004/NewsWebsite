@@ -1,0 +1,36 @@
+
+.header-section {
+    /* background: linear-gradient(to right, #ff0844, #ffb199); */
+    color: black;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.mission-section {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.team-section {
+    padding: 50px 0;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}

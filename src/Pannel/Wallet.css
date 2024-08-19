@@ -1,0 +1,51 @@
+.wallet-card {
+    margin-top: 50px;
+    /* background-color: #f8f9fa; */
+    background-color: transparent;   
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+  }
+  .wallet-balance {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  .wallet-page {
+    height: 80vh;
+    background: url('https://img.freepik.com/free-vector/gold-coin-seamless-pattern-background-money-vector-finance-illustration_53876-136818.jpg?t=st=1723999650~exp=1724003250~hmac=3a0ceaf19fb7f32809ef16c0b5e3cbe41caec53ca7a98d58e1b0206483b0c8b5&w=740');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://example.com/wallet-image.jpg') no-repeat center center/cover; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wallet-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+    color: #343a40;
+  }
+  .wallet-balance {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #28a745;
+  }
+  .wallet-text {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+  .wallet-image {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    object-fit: contain;
+  }

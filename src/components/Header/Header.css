@@ -1,0 +1,104 @@
+/* @import '~mdb-ui-kit/css/mdb.min.css'; */
+
+.navbar-nav li:hover{
+    border-radius: 10px;
+    background-color: black;
+}
+.btnauth:hover{
+    background-color:black;
+    border: none;
+    border-radius: 10px;
+}
+
+@media (max-width:991px)
+{
+    .btnauth
+    {
+        width: 100%;
+        /* display: block; */
+        text-align: center;
+        background-color: transparent;
+    }
+    .dropstart{
+        margin: auto;
+    }
+        
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-link {
+    text-decoration: none;
+    color: white;
+    /* padding: 10px; */
+    /* border: 1px solid #007bff; */
+    /* border-radius: 4px; */
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.post-link:hover{
+    background-color: rgb(255, 229, 229);
+}
+
+
+
+/* Dropdown container */
+.profileDrop {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dots trigger */
+  .eliipseLink {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Dropdown content */
+  .profileContent {
+    display: none;
+    position: absolute;
+    left: -150px; /* Adjust this value as needed */
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    min-width: 150px;
+    z-index: 1;
+    padding: 10px;
+  }
+  
+  /* Dropdown content items */
+  .profileContent p {
+    margin: 0;
+  }
+  
+  /* Show dropdown content on hover */
+  .profileDrop:hover .profileContent,
+  .profileContent:hover {
+    display: block;
+  }
+  
+  /* Hover effect for dropdown items */
+  .profileContent p:hover {
+    background-color: #ddd;
+  }
+  

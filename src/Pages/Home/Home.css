@@ -1,0 +1,17 @@
+#imgsec-1 img{
+    width: 300px;
+    /* height: 200px; */
+}
+
+@media (max-width:320px){
+    #imgsec-1 img{
+        width: 100px;
+    }
+}
+
+@media (max-width:760px)
+{
+    .side-posts{
+        display: none;
+    }
+}
